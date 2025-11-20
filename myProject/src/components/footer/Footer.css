@@ -1,0 +1,53 @@
+#foot-main{
+    height: 50vh;
+    width: 100vw;
+    background-color: #101130;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+#loda:hover{
+    box-shadow: rgb(243, 244, 245) 0px 20px 30px -10px;
+}
+#log{
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    /* background-color: yellowgreen; */
+    height: 30vh;
+    width: 18vw;
+}
+#log p{
+    margin-top: 0px;
+}
+#log img{
+    height: 100px;
+    width: 200px;
+}
+#about{
+    /* background-color: yellowgreen; */
+    height: 30vh;
+    width: 18vw;
+    color: aliceblue;
+}
+#about p{
+    margin-top: 0px;
+}
+#support{
+    color: white;
+    /* background-color: white; */
+    height: 30vh;
+    width: 18vw;
+}
+#support p{
+    margin-top: 0px;
+}
+#contact{
+    /* background-color: green; */
+    height: 30vh;
+    width: 18vw;
+    color: aliceblue;
+}
+#contact p{
+    margin-top: 0px;
+}

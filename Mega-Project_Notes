@@ -1,0 +1,59 @@
+Backend used in my project is a open Source Project (App Write)
+To add login , Sign in , Sign up and Authentication 
+!(1) Used App Write for Backend services in my Project, App Write is complete backend  service  , i have used funcnalities  like saving images , adding Post, login , sign up , authentaction 
+
+Appwrite is an open-source backend-as-a-service (BaaS) platform that provides developers with a set of tools and APIs to manage various backend services like authentication, databases, file storage, cloud functions, and more. It is designed to simplify the development process by offering a self-hosted solution for creating full-stack applications without needing to manage your own backend infrastructure.
+
+Key Features of Appwrite:
+Authentication: Provides user authentication via email, OAuth, or anonymous logins.
+Database: A document-based database that supports queries and permissions.
+Storage: Handles file uploads and storage management.
+Realtime: Real-time data updates via subscriptions to changes.
+Cloud Functions: Allows the execution of server-side code (functions) that respond to specific events.
+
+
+
+(2) Tiny Mce , is a Text Editor i have used in my Project which is imported from react library
+(3) used onr more library Html React Parser to parse html , in my Project 
+(4) React Hook Form used to add more funcanalities used as a library to make form in recat has methods handlesubmit and register
+(5) envirovment variable : that to keep some of data hidden  like url, id, credentials etc 
+
+App write Apis 
+Appwrite is based on APIs to provide backend services like authentication, databases, storage, and more to frontend applications. These APIs enable developers to interact with and manage the backend services from various platforms (web, mobile, IoT) without directly managing the backend infrastructure.
+Each API endpoint in Appwrite is secured and designed to handle specific tasks, such as:
+
+User Authentication APIs: Handle user registration, login, password resets, etc.
+Database APIs: Provide structured data storage and retrieval.
+Storage APIs: Manage file uploads, downloads, and permissions.
+
+Environmental variables (often called environment variables) are key-value pairs that are used to store configuration settings or system information in an application. These variables are set outside of the application code and can be used to control its behavior in different environments, such as development, testing, and production.
+
+Key Use Cases of Environmental Variables:
+Security: Store sensitive information like API keys, database credentials, or tokens without hardcoding them into your codebase.
+Configuration Management: Manage different configurations for different environments (e.g., development, staging, production).
+System Information: Store and access system-related data like the server's hostname, port number, or file paths.
+
+in this Project for login we need a login form which need two inputs , 1 for password and 1 for email so this can be easily done that i can 
+use usestate hook and and changing the values in store in reducer in redux toolkit and the refering it but 
+in Industry Practises what is actually done that we make  input as a component with many and good funcanalities 
+which allow us to  use it many times too , this i have done in my project also
+so here to pass the refrence in those input componets use forwardref hook 
+
+
+for making login from i have used a react library react-hook-form 
+React Hook Form is a popular library in React for managing forms and form validation. It focuses on minimizing re-rendering and improving performance by relying on uncontrolled components. This makes it lightweight and efficient for handling large forms with complex validation logic.
+
+Key Features of React Hook Form:
+Minimal re-renders: It leverages uncontrolled components, which means the form input values are handled directly by the DOM rather than being tied to React's state.
+
+Easy Integration: You can integrate it with any UI library or custom components.
+
+Improved Performance: React Hook Form ensures minimal re-renders by using refs instead of state, making it faster than other form management libraries.
+
+Built-in Validation: It has built-in validation (required fields, min/max values, regex patterns, etc.) and can easily integrate with other validation libraries like Yup or Joi.
+
+Tiny Size: The library is very lightweight compared to alternatives like Formik.
+in the debugging part i come up with a error is CORS error . browser can not request server  through cross origin , Cors is solved in Backend , mainly with the URL
+
+Deployment of react project how it is done 
+deploymwnt is all about making a seprate a github repo and and hiding all the sensitive information of the project such as env to keep thr url ad data safe , and it a normal process we can use netlify and varcel 
